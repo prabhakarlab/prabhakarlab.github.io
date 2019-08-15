@@ -118,7 +118,7 @@ footer {margin-bottom: -20px;}
 }
 
 .npanel  {
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-color: white;
     color: crimson;
     font-weight: lighter;
@@ -156,6 +156,13 @@ footer {margin-bottom: -20px;}
     .navbar {
         background-color: #842930;
         border-bottom: 10px solid #842930;
+    }
+
+    .npanel  {
+        font-size: 0.5rem;
+        background-color: white;
+        color: crimson;
+        font-weight: lighter;
     }
 
     .banner {
