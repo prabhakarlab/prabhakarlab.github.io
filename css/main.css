@@ -172,4 +172,9 @@ footer {margin-bottom: -20px;}
         color: white;
     }
 
+    #nav-item li > a:hover {
+        border-bottom: 2px solid #842930;
+        opacity: 0.5;
+    }
+
 }
