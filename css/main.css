@@ -10,23 +10,7 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
-    p {
-        padding-left: 7rem;
-        padding-right: 7rem;
-        font-weight: lighter;
-        font-size: 1rem;
-    }
-}
 
-@media only screen and (max-width: 400px) {
-    p {
-        font-weight: lighter;
-        font-size: 1rem;
-        padding-left: 0rem;
-        padding-right: 0rem;
-    }
-}
 
 h1 {
     font-weight: lighter;
@@ -45,18 +29,6 @@ a:hover {
     color: black;
 }
 
-@media only screen and (min-width: 768px) {
-    .banner {
-        font-size: 8rem;
-        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-  .banner {
-      font-size: 2rem;
-  }
-}
 
 .page-footer a {
     color:white;
@@ -94,14 +66,6 @@ footer.well{ margin-bottom: -20px !important;}
 
 footer {margin-bottom: -20px;}
 
-.nav {
-    margin-bottom: 0;
-    background-color: transparent;
-}
-
-.nav li {
-    color: black;
-}
 .navbar li > a:hover {
     border-bottom: 2px solid crimson;
     opacity: 0.5;
@@ -174,10 +138,43 @@ footer {margin-bottom: -20px;}
     .requirements {
         padding-left: 8rem;
     }
+
+    .banner {
+        font-size: 8rem;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
+    }
+
+    p {
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-weight: lighter;
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 400px) {
     .requirements {
         padding-left: 0rem;
     }
+
+    .navbar {
+        background-color: firebrick;
+        border-bottom: 10px solid firebrick;
+    }
+
+    .banner {
+        font-size: 2rem;
+    }
+
+    p {
+        font-weight: lighter;
+        font-size: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #nav-item a {
+        color: white;
+    }
+
 }
