@@ -155,6 +155,7 @@ footer {margin-bottom: -20px;}
 
     .navbar {
         background-color: #842930;
+        border-bottom: 10px solid #842930;
     }
 
     .banner {
