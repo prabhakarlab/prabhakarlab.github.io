@@ -134,6 +134,19 @@ footer {margin-bottom: -20px;}
     .requirements {
         padding-left: 8rem;
     }
+    .navbar {
+        background-color: #842930;
+        border-bottom: 10px solid #842930;
+    }
+    #nav-item a {
+        color: white;
+    }
+
+    #nav-item li > a:hover {
+        border-bottom: 0px solid #842930;
+        opacity: 0.5;
+    }
+    
 
     .banner {
         font-size: 8rem;
