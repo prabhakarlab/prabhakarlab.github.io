@@ -89,9 +89,10 @@ footer {margin-bottom: -20px;}
 
 .ppanel {
     color: transparent;
-    width: calc(100% - 30px);
+    width: 95%;
     position: absolute;
     font-weight:lighter;
+    height: 100%;
 }
 
 .projectpanel {
@@ -112,8 +113,6 @@ footer {margin-bottom: -20px;}
 
 }
 img {
-    max-width: 100%;
-    max-height: 100%;
 }
 .ppanel:hover {
     background-color: black !important;
