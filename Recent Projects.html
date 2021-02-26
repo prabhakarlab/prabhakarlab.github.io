@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Recent Projects</title>
+    </head>
+    <body>
+          <!-- Load header into !-->
+        <div id = "header"> </div>
+
+        <div class="container-fluid pt-5 pb-5">
+           <div class="container pt-3 pb-3">
+                <h1 class="text-center subhead">Recent Projects</h1>
+            </div>
+            <div class="container pt-3 pb-3">
+                
+                      <!-- Project Elements !-->
+            <div class = "container-fluid pb-5 mt-5 text-center">
+               
+                <div class="container pt-3 pb-3 border-bottom" style="width: 100%; height: 100%; text-align: center">
+                    <a href = "https://www.ncbi.nlm.nih.gov/pubmed/27863250" target="_blank" style="font-family: inherit"><h3 class = "pt-3" style="font-weight: bold">Histone Acetylome-wide Association Study of Autism Spectrum Disorder</h3>
+                    <br>
+                        <div class="container-fluid">  
+                            
+                                <img class="img-fluid imgpanel border" src="./images/histone.png">
+                                <br>
+                        </div>
+                        </a>
+                   <br>
+                    </div>
+                
+                  <div class="container pt-3 pb-3 border-bottom" style="width: 100%; height: 100%; text-align: center">
+                    <a href = "https://www.ncbi.nlm.nih.gov/pubmed/28319088" target="_blank" style="font-family: inherit"><h3 class = "pt-3" style="font-weight: bold">Reference component analysis of single-cell transcriptomes elucidates cellular heterogeneity in human colorectal tumors</h3>
+                    <br>
+                        <div class="container-fluid">  
+                            
+                                <img class="img-fluid imgpanel border" src="./images/project2.png">
+                                <br>
+                        </div>
+                        </a>
+                   <br>
+                    </div>
+                
+                <div class="container pt-3 pb-3 border-bottom" style="width: 100%; height: 100%; text-align: center">
+                    <a href = "https://www.ncbi.nlm.nih.gov/pubmed/25799442" target="_blank" style="font-family: inherit"><h3 class = "pt-3" style="font-weight: bold">Sensitive detection of chromatin-altering polymorphisms reveals autoimmune disease mechanisms</h3>
+                    <br>
+                        <div class="container-fluid">  
+                            
+                                <img class="img-fluid imgpanel border" src="./images/Sensitive.jpeg">
+                                <br>
+                        </div>
+                        </a>
+                   <br>
+                    </div>
+                
+
+            </div>
+                
+                
+            </div>
+        </div>
+        
+        
+        
+     <!-- Load footer into !-->
+        <div id = "footer"> </div>
+
+        <!-- Imported Scripts -->
+        <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin = "anonymous"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+        <!-- Loads header!-->
+        <script>
+            $.get("header.html", function(data){ $("#header").replaceWith(data); });
+        </script>
+
+        <!-- Loads footer !-->
+        <script>
+            $.get("footer.html", function(data){ $("#footer").replaceWith(data); });
+        </script>
+    </body>
+    </html>
