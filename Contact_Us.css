@@ -1,0 +1,53 @@
+form
+{
+
+margin-top:50px;
+transition: all 4s ease-in-out;
+
+}
+
+
+.form-control
+{
+    
+    width:100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+    align-self: center;
+    text-align: center;
+    
+    
+    
+}
+
+input{
+    
+    450px;
+}
+
+form .submit{
+    
+    background: #F2D3B0;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+ 
+}
+
+form .submit:hover{
+    
+    background-color: #F2D3B0;
+    cursor: pointer;
+    
+    
+}
