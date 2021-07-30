@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Overview</title>
+    </head>
+
+    <body>
+        <!-- Load header into !-->
+        <div id = "header"> </div>
+
+        <div class="container-fluid pb-5 pt-5">
+            <div class="container pb-3">
+                <h1 class="text-center subhead">Overview</h1>
+            </div>
+
+            <div class="container text-left pl-0 pr-0">
+                <h4 class="pt-3 pb-3 font-weight-bold" style="text-align: center">Overview of Single-Cell In Situ Spatial Omics at subcellular Resolution</h4>
+
+                <p style="text-align: center">The global in vitro diagnostics (IVD) market is projected to reach USD120B by 2025 (Frost & Sullivan, 2016).
+                    The most precise IVD methods involve imaging or molecular profiling of blood, urine or other human tissue samples.
+                    In particular, the nucleic acid-based diagnostics market is projected at USD 24 billion by 2022, with a CAGR of 14.3% (BCC Research, 2017).
+                    A related market is that for molecular reagents and kits, which is estimated at USD 14 billion by the same date (Markets and Markets™, 2017).
+                    Existing technologies in these market spaces are limited or lacking in one or more of the following capabilities:
+                    1) spatial information; 2) single-cell resolution; 3) number of molecular features that cab be probed; and 4) sensitivity.
+                    We aim to overcome these limitations by extending our unique spatial omics (SO) technology, Multiplexed Error-Robust Fluorescence
+                    In Situ Hybridization (MERFISH; co-inventor: Kok Hao Chen, Chen et. al. Science 2015.</p>
+
+                <h4 class="pt-3 pb-3 font-weight-bold" style="text-align: center">Advantages of MERFISH</h4>
+
+                <p style="text-align: center">This multiplexed FISH approach provides four major advantages over existing methods: 1) spatial locations of nucleic acid molecules
+                    in the tumor sample 2) sub-cellular resolution 3) parallelization to more than 1,000 markers and 4) greater sensitivity and accuracy than competing methods.
+                    These advantages could provide greater speed, precision and convenience at lower cost for clinical diagnoses. </p>
+
+                <h4 class="pt-3 pb-3 font-weight-bold" style="text-align: center">Why be Interested in SCISSOR?</h4>
+
+                <p style="text-align: center">SCISSOR is underway developing applications for spatial omics in three major areas of in vitro diagnostics: a) liquid biopsy, b) fusion gene detection in sarcomas and c) immunotherapy.
+                    For each of the above application SCISSOR aims to develop 1) advanced SO techniques and analytics, (2) reagent kits and (3) fee-for-service collaboration. Our programme also promises to enhance existing practices in healthcare industry to impact lives, as current pathology methods are mostly low-throughput (at most 6-8 markers are profiled by immunohistochemistry) and most oncologic diagnoses are still based on immunohistochemical analysis of tissue biopsies. Use of single-cell 3D transcriptomics-based decision support systems could increase information content from routine FFPE clinical material by many orders of magnitude, revealing cell-type-specific features and inter-cellular interactions that precisely define cancer biology and inform treatment. This enhanced diagnostic capability is particularly important as modern cancer drug development targets specific stromal, immune and cancer cell traits.
+                    Other applications are also promising – the technology is applicable in principle to any disease for which biopsy samples are accessible.</p>
+            </div>
+        </div>
+
+        <!-- Load footer into !-->
+        <div id = "footer"> </div>
+
+        <!-- Imported Scripts -->
+        <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin = "anonymous"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+        <!-- Loads header!-->
+        <script>
+            $.get("header.html", function(data){ $("#header").replaceWith(data); });
+        </script>
+
+        <!-- Loads footer !-->
+        <script>
+            $.get("footer.html", function(data){ $("#footer").replaceWith(data); });
+        </script>
+    </body>
+</html>

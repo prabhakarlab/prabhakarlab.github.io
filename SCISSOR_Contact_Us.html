@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang = "en">
+<head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="SCISSOR_css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Contact Us</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
+<style>    
+*{
+  box-sizing: content-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 45%;
+  padding: 10px;
+  height: 450px;
+  
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>  
+        
+    </head>
+    <body>
+        <!-- Load header into !-->
+        <div id = "header"> </div>
+        
+        <div class="container pt-5 pb-3">
+            <h1 class="text-center subhead">Contact Us</h1>
+        </div>
+        
+        <div class="container-fluid pb-5 pt-5" style="text-align: center">
+            <div class="container pt-3 pb-3" style="text-align: center">
+            
+            <div class="row">
+             <div class="column" style="text-align: center;margin-top: 10px">
+                 <i class="material-icons" style="text-align: center">add_location</i><h4 style="text-align: center">60 Biopolis Street, Genome Building, #03-01, Singapore, 138672</h4>
+                 <br>
+                 <i class="material-icons">&#xe551;</i><h4 style="text-align: center">+65 6808 8046</h4>
+                 <br>
+     <a href="mailto: prabhakars@gis.a-star.edu.sg"><img src="/images/email_icon.png" style="text-align: center;width: 30px;margin-bottom: 5px"><h4 style="color: black">prabhakars@gis.a-star.edu.sg</h4></a>
+
+            </div>
+            <div class="column" style="text-align: center;margin-top: 10px;">
+      
+            <p style="text-align: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7871326797167!2d103.79045891457255!3d1.3026845990498894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a46a88725cd%3A0x9d27cec9775be342!2sGenome%20Institute%20of%20Singapore%20(GIS)!5e0!3m2!1sen!2ssg!4v1626354480346!5m2!1sen!2ssg" width=400 height=300 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           </p>
+
+             </div>
+          </div>
+                </div>
+            <div class="container pt-3 pb-3">
+                <div class="container pt-5 pb-3">
+            <h1 class="text-center subhead">Leave a Message</h1>
+        </div>
+                
+              <div style="font-family:Sans-Serif;font-size:15px;color:#000;opacity:0.9;padding-top:5px;padding-bottom:8px">If the form below is not loaded, you can also fill it in at <a href="https://form.gov.sg/6100cfcb25f2e90011b16133">here</a>.</div>
+
+<!-- Change the width and height values to suit you best -->
+<iframe id="iframe" src="https://form.gov.sg/6100cfcb25f2e90011b16133" style="width:100%;height:500px"></iframe>
+
+<div style="font-family:Sans-Serif;font-size:12px;color:#999;opacity:0.5;padding-top:5px">Powered by <a href="https://form.gov.sg" style="color: #999">FormSG</a></div>
+                
+      
+        </div>
+        </div>
+        <br>
+     </body>       
+
+         <!-- Load footer into !-->
+        <div id = "footer"> </div>
+
+        <!-- Imported Scripts -->
+        <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin = "anonymous"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+        <!-- Loads header!-->
+        <script>
+            $.get("SCISSOR_header.html", function(data){ $("#header").replaceWith(data); });
+        </script>
+
+        <!-- Loads footer !-->
+        <script>
+            $.get("SCISSOR_footer.html", function(data){ $("#footer").replaceWith(data); });
+        </script>
+</html>
