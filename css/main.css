@@ -40,9 +40,10 @@ a:hover {
 .container-fluid {
     padding-right:0;
     padding-left:0;
-    margin-right:auto;
-    margin-left:auto;
-    width: 80%
+    margin-right:inherit;
+    margin-left:inherit;
+    width: 100%;
+    height: 100%;
  }
 
  .carousel-caption {
