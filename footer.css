@@ -15,8 +15,8 @@ footer .overlay{
 	height: 100%;
 	padding: 50px;
 	color: #FFF;
-	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #F2D3B0 10%, #F2D3B0 100%);	
+	text-shadow: 1px 1px 1px rgb(253, 251, 251);
+  background-image: linear-gradient( 135deg, #F2D3B0 10%, #013e85 100%);	
 }
 
  footer .overlay h1,h3{
@@ -24,7 +24,8 @@ footer .overlay{
 	font-size: 50px;
 	margin-bottom: 30px;
     margin-top: 0px;
-    margin-left: 30px
+    margin-left: 30px;
+
 }
 
  footer .overlay p {
@@ -40,7 +41,7 @@ footer .overlay button {
 	color: #333;
 	background: #fff;
 	margin-bottom: 50px;
-	box-shadow: 0 3px 20px 0 #0000003b;
+	box-shadow: 0 3px 20px 0 #fff;
 }
 footer .overlay button:hover{
 	cursor: pointer;

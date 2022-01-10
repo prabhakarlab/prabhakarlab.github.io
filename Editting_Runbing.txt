@@ -1,0 +1,23 @@
+Group webside:
+1.decrease space between rows (.overlay buttom)
+2.Include S2GP link in homepage
+3.change softwares into softwares
+4.change the shyam photo with higher solution in the team page
+5.reduce the image size in out team page
+6.rearrange the photo size and location in the team page
+
+7.reduce the point size of titile in project
+
+8.delect the second 2019 in public
+
+
+SCISSOR:
+1. CHANGE merfish into DNA sFISH for wp1 and RNA mFISH FOR WP2 AND WP3
+2. editting wp1 follow Micelle's suggestion
+3. remove the broken link in the main page
+4.  add figures in wp1 
+5. replace the figure in wp3
+6. Change our Co-Is into our Co-PIs
+
+
+

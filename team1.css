@@ -8,18 +8,18 @@ html{
 }
  
 .our-team{
-    padding: 20px 15px 30px;
+    padding: 10px 5px 20px;
     background: #fff;
     border-radius: 15px;
     text-align: center;
 }
 .our-team .pic{
     display: inline-block;
-    width: 100%;
-    height: 100%;
+    width:60%;
+    height: 60%;
     background: #fff;
     padding: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
@@ -42,7 +42,7 @@ html{
 .our-team .post{
     display: block;
     font-size: 15px;
-    color: #F2D3B0;
+    color: #f0b470;
     text-transform: capitalize;
     margin-bottom: 15px;
 }

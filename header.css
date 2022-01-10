@@ -16,10 +16,12 @@ header .overlay{
 	padding: 0px;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #F2D3B0	 10%, #F2D3B0		 100%);
-	
+  background-image: linear-gradient( 135deg,#013e85	 10%, #F2D3B0		 100%);
 }
 
+br {
+	line-height: 200%;
+ }
 header .overlay h1 {
    
 	font-family:'Josefin Sans';
@@ -40,7 +42,7 @@ header .overlay button {
 	border-radius: 50px;
 	color: #333;
 	background: #fff;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
 header .overlay button:hover{
