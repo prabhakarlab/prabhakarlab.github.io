@@ -27,29 +27,17 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <title>Asian Immune Diversity Atlas (AIDA)</title>
     <style>
-        /* Update sidebar styling */
-        .page-container {
-            display: flex;
-            min-height: 100vh;
-        }
-
         .sidebar {
+            height: 100%;
             width: 250px;
             position: fixed;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            background-color: #f8f9fa;
-            border-right: 1px solid #dee2e6;
-            padding-top: 220px; /* Account for header height */
-            overflow-y: auto;
             z-index: 1;
-        }
-
-        .sidebar h4 {
-            padding: 10px 15px;
-            font-family: 'Josefin Sans';
-            margin-bottom: 20px;
+            top: 200px;
+            left: 0;
+            background-color: #f8f9fa;
+            overflow-x: hidden;
+            padding-top: 20px;
+            border-right: 1px solid #dee2e6;
         }
 
         .sidebar a {
@@ -68,23 +56,20 @@
         }
 
         .main-content {
-            flex: 1;
             margin-left: 250px;
-            padding: 20px;
+            padding: 0px 10px;
         }
 
         @media screen and (max-width: 768px) {
             .sidebar {
                 width: 100%;
+                height: auto;
                 position: relative;
-                padding-top: 20px;
+                top: 0;
                 margin-bottom: 20px;
             }
             .main-content {
                 margin-left: 0;
-            }
-            .page-container {
-                flex-direction: column;
             }
         }
 
@@ -94,76 +79,74 @@
     </style>
 </head>
 <body>
-    <div class="page-container">
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <h4>Contents</h4>
-            <a href="#overview">Project Overview</a>
-            <a href="#objectives">Key Objectives</a>
-            <a href="#methodology">Methodology</a>
-            <a href="#impact">Impact and Applications</a>
-            <a href="#collaborators">Collaborators</a>
-        </div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h4 style="padding: 10px 15px; font-family: 'Josefin Sans'">Contents</h4>
+        <a href="#overview">Project Overview</a>
+        <a href="#objectives">Key Objectives</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#impact">Impact and Applications</a>
+        <a href="#collaborators">Collaborators</a>
+    </div>
 
-        <!-- Main content -->
-        <div class="main-content">
-            <div class="container-fluid pt-5 pb-5">
-                <div class="container pt-3 pb-3">
-                    <h1 style="text-align: center; font-family: 'Josefin Sans';">Asian Immune Diversity Atlas (AIDA)</h1>
-                    <hr style="text-align: center;height: 3px">
-                    <br>
+    <!-- Main content -->
+    <div class="main-content">
+        <div class="container-fluid pt-5 pb-5">
+            <div class="container pt-3 pb-3">
+                <h1 style="text-align: center; font-family: 'Josefin Sans';">Asian Immune Diversity Atlas (AIDA)</h1>
+                <hr style="text-align: center;height: 3px">
+                <br>
 
-                    <div class="container pt-3 pb-3" style="width: 70%; text-align: left">
-                        <section id="overview" class="section">
-                            <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Project Overview</h3>
-                            <p style="font-size: 16px;">
-                                The Asian Immune Diversity Atlas (AIDA) is a groundbreaking initiative aimed at constructing a comprehensive atlas of immune cell diversity across Asian populations. This project addresses the critical gap in our understanding of immune system variation among diverse Asian ethnic groups and its implications for health and disease.
-                            </p>
-                        </section>
+                <div class="container pt-3 pb-3" style="width: 70%; text-align: left">
+                    <section id="overview" class="section">
+                        <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Project Overview</h3>
+                        <p style="font-size: 16px;">
+                            The Asian Immune Diversity Atlas (AIDA) is a groundbreaking initiative aimed at constructing a comprehensive atlas of immune cell diversity across Asian populations. This project addresses the critical gap in our understanding of immune system variation among diverse Asian ethnic groups and its implications for health and disease.
+                        </p>
+                    </section>
 
-                        <section id="objectives" class="section">
-                            <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Key Objectives</h3>
-                            <ul style="font-size: 16px;">
-                                <li>Map immune cell diversity across major Asian ethnic groups</li>
-                                <li>Identify population-specific immune cell states and proportions</li>
-                                <li>Understand the impact of genetic ancestry on immune responses</li>
-                                <li>Create a reference database for clinical applications</li>
-                            </ul>
-                        </section>
+                    <section id="objectives" class="section">
+                        <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Key Objectives</h3>
+                        <ul style="font-size: 16px;">
+                            <li>Map immune cell diversity across major Asian ethnic groups</li>
+                            <li>Identify population-specific immune cell states and proportions</li>
+                            <li>Understand the impact of genetic ancestry on immune responses</li>
+                            <li>Create a reference database for clinical applications</li>
+                        </ul>
+                    </section>
 
-                        <section id="methodology" class="section">
-                            <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Methodology</h3>
-                            <p style="font-size: 16px;">
-                                AIDA employs cutting-edge single-cell genomics technologies to profile immune cells from thousands of individuals across Asia. Our approach combines:
-                            </p>
-                            <ul style="font-size: 16px;">
-                                <li>Single-cell RNA sequencing</li>
-                                <li>Multi-parameter flow cytometry</li>
-                                <li>Advanced computational analysis</li>
-                                <li>Population genetics integration</li>
-                            </ul>
-                        </section>
+                    <section id="methodology" class="section">
+                        <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Methodology</h3>
+                        <p style="font-size: 16px;">
+                            AIDA employs cutting-edge single-cell genomics technologies to profile immune cells from thousands of individuals across Asia. Our approach combines:
+                        </p>
+                        <ul style="font-size: 16px;">
+                            <li>Single-cell RNA sequencing</li>
+                            <li>Multi-parameter flow cytometry</li>
+                            <li>Advanced computational analysis</li>
+                            <li>Population genetics integration</li>
+                        </ul>
+                    </section>
 
-                        <section id="impact" class="section">
-                            <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Impact and Applications</h3>
-                            <ul style="font-size: 16px;">
-                                <li>Understanding population-specific disease susceptibility</li>
-                                <li>Improving vaccine development strategies</li>
-                                <li>Enhancing immunotherapy approaches</li>
-                                <li>Advancing precision medicine in Asia</li>
-                            </ul>
-                        </section>
+                    <section id="impact" class="section">
+                        <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Impact and Applications</h3>
+                        <ul style="font-size: 16px;">
+                            <li>Understanding population-specific disease susceptibility</li>
+                            <li>Improving vaccine development strategies</li>
+                            <li>Enhancing immunotherapy approaches</li>
+                            <li>Advancing precision medicine in Asia</li>
+                        </ul>
+                    </section>
 
-                        <section id="collaborators" class="section">
-                            <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Collaborators</h3>
-                            <ul style="font-size: 16px;">
-                                <li>Genome Institute of Singapore (GIS)</li>
-                                <li>Leading research institutions across Asian countries</li>
-                                <li>Clinical partners and hospitals</li>
-                                <li>International genomics consortia</li>
-                            </ul>
-                        </section>
-                    </div>
+                    <section id="collaborators" class="section">
+                        <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Collaborators</h3>
+                        <ul style="font-size: 16px;">
+                            <li>Genome Institute of Singapore (GIS)</li>
+                            <li>Leading research institutions across Asian countries</li>
+                            <li>Clinical partners and hospitals</li>
+                            <li>International genomics consortia</li>
+                        </ul>
+                    </section>
                 </div>
             </div>
         </div>
