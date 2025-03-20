@@ -33,6 +33,9 @@
             border-radius: 4px;
             padding: 20px;
             margin-bottom: 20px;
+            position: fixed;/* top: 20px; left: 20px; Adjust this value based on your layout */ /*width: 250px; Set a fixed width */
+            max-height: 90vh; /* Ensures it doesn't take too much space */
+            overflow-y: auto; /* Enables scrolling within the ToC */
         }
 
         .table-of-contents h4 {
@@ -108,10 +111,12 @@
                 <!-- Main Content -->
                 <div class="col-md-9">
                     <section id="PPM" class="section">
-                        <span style="display: block; margin-left: 20px; font-size: 20px; text-align: left;">
+                        <span style="display: block; margin-left: 30px; font-size: 16px; text-align: left;">
                             <i>Version 0, updated 19 March 2025</i><br>
                             Thank you for your interest in the Asian Immune Diversity Atlas (AIDA). AIDA is a multi-national single-cell reference atlas of circulating immune cells from donors from diverse populations. Data generation is on-going as of 2025, and AIDA comprises multiple phases and data freezes. We appreciate your patience in navigating the various AIDA resources and data freezes, especially since each AIDA member country has their own data access regulations.
                         </span>
+                        <br>
+                        <br>
                         <h3 class="pt-3" style="font-weight: bold;font-size: 28px;color: #e21313">AIDA Publications, Protocols, and Media</h3>
                         <section id="Publications" class="section">
                             <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Publications</h3>
@@ -133,11 +138,10 @@
                                         <li>For further details on this paper, please contact the corresponding author: Dr Boxiang Liu (boxiangliu@nus.edu.sg)</li>
                                     </ul>
                             </ul>
-                            <span style="display: block; margin-left: 42px; font-size: 16px; text-align: left;">
+                            <span style="display: block; margin-left: 30px; font-size: 16px; text-align: left;">
                                 (The list above will be updated periodically.)
                             </span>
                         </section>
-                        <br>
                         <br>
                         <br>
 
@@ -150,11 +154,10 @@
                         </section>
                         <br>
                         <br>
-                        <br>
 
                         <section id="Media" class="section">
                             <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Media</h3>
-                            <span style="display: block; margin-left: 42px; font-size: 16px; text-align: left;">
+                            <span style="display: block; margin-left: 30px; font-size: 16px; text-align: left;">
                                 Our AIDA Phase 1 press releases include:
                             </span>
                             <ul style="margin-left: 49px; font-size: 16px;">
@@ -162,7 +165,7 @@
                                 <li>RIKEN IMS Receives CZI Ancestry Network Grant to Investigate Immune Diversity in Japan and Asia; RIKEN: <a style = "color: #2171B5;" href="https://www.ims.riken.jp/english/2021/12/004329.php" target="_blank">https://www.ims.riken.jp/english/2021/12/004329.php</a></li>
                                 <li>Scientists from the Genome Institute of Singapore awarded CZI Ancestry Network grant to investigate immune diversity in Singapore and Asia; A*STAR: <a style = "color: #2171B5;" href="https://www.a-star.edu.sg/docs/librariesprovider11/gis-publicity/t1/20211211_press_release-astar_gis_receives_czi_ancestry_network_grant-dec_9_ls_sp.pdf" target="_blank">https://www.a-star.edu.sg/docs/librariesprovider11/gis-publicity/t1/20211211_press_release-astar_gis_receives_czi_ancestry_network_grant-dec_9_ls_sp.pdf</a></li>
                             </ul>
-                            <span style="display: block; margin-left: 42px; font-size: 16px; text-align: left;">
+                            <span style="display: block; margin-left: 30px; font-size: 16px; text-align: left;">
                                 AIDA is supported by the Chan Zuckerberg Initiative (CZI):
                             </span>
                             <ul style="margin-left: 49px; font-size: 16px;">
@@ -173,28 +176,31 @@
                     </section>
                     <br>
                     <br>
-                    <br>
                     <section id="Resources" class="section">
                         <h3 class="pt-3" style="font-weight: bold;font-size: 28px;color: #e21313">AIDA Resources</h3>
-                        <span style="display: block; margin-left: 42px; font-size: 16px; text-align: left;">
+                        <span style="display: block; margin-left: 30px; font-size: 16px; text-align: left;">
                             We recommend our AIDA Phase 1 visualisations at the Chan Zuckerberg (CZ) CELLxGENE data portal as a starting point for exploring AIDA resources: <a style = "color: #2171B5;" href="https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508" target="_blank">https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508.</a>
                         </span>
-                        <section id="Protocols" class="section">
+                        <br>
+                        <br>
+
+                        <section id="Freeze1" class="section">
                             <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">AIDA Phase 1 Data Freeze v1</h3>
+                            <span style="display: block; margin-left: 30px; font-size: 16px; text-align: left;">
                             The AIDA Phase 1 Data Freeze v1 object comprises 1,058,909 peripheral blood mononuclear cells (PBMCs) from 503 healthy donors from Japan, Singapore, and South Korea alongside 5 common controls. This first AIDA data freeze was released to the research community pre-publication (including via the Human Cell Atlas (HCA) Data Portal, and CZ CELLxGENE), and was also part of the first CZ CELLxGENE Census assembled in May 2023.
+                            </span>
                         </section>
                         <br>
                         <br>
-                        <br>
-                        <section id="Protocols" class="section">
+                        <section id="Freeze2" class="section">
                             <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Protocols</h3>
+                            <span style="display: block; margin-left: 30px; font-size: 16px; text-align: left;">
                             The AIDA Phase 1 Data Freeze v2 object comprises 1,265,624 PBMCs from 619 donors, spanning 7 population groups across 5 Asian countries (India, Japan, Singapore, South Korea, and Thailand), and 6 common controls. Going from Data Freeze v1 to Data Freeze v2, we added additional healthy Asian donor samples and control samples. We excluded 5 Asian donors (SG_HEL_H141, SG_HEL_H185, SG_HEL_H203, SG_HEL_H239, and SG_HEL_H347)  from AIDA Phase 1 Data Freeze v1 with ambiguous medication data. We added 121 new Asian donors (32 Singapore donors, 59 Thailand Thai donors, and 30 India Indian donors). These new Asian donors included donors SG_HEL_H262 and SG_HEL_H269, as well as donors profiled in experimental batches SG_HEL_B023, SG_HEL_B024, TH_MAH_B001, TH_MAH_B002, TH_MAH_B003, TH_MAH_B004, IN_NIB_B001, and IN_NIB_B002. We also removed two libraries with high doublet rates (SG_HEL_B011_L002 and SG_HEL_B021_L001). Please see our paper (Kock et al., Cell, 2025) for further details. This second AIDA data freeze was also released to the research community pre-publication.
+                            </span>
                         </section>
-                        <br>
                         <br>
                         <br>
                     </section>
-                    <br>
                     <br>
                     <br>
 
@@ -211,25 +217,6 @@
                         </ul>
                     </section>
 
-                    <section id="impact" class="section">
-                        <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Impact and Applications</h3>
-                        <ul style="font-size: 16px;">
-                            <li>Understanding population-specific disease susceptibility</li>
-                            <li>Improving vaccine development strategies</li>
-                            <li>Enhancing immunotherapy approaches</li>
-                            <li>Advancing precision medicine in Asia</li>
-                        </ul>
-                    </section>
-
-                    <section id="collaborators" class="section">
-                        <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Collaborators</h3>
-                        <ul style="font-size: 16px;">
-                            <li>Genome Institute of Singapore (GIS)</li>
-                            <li>Leading research institutions across Asian countries</li>
-                            <li>Clinical partners and hospitals</li>
-                            <li>International genomics consortia</li>
-                        </ul>
-                    </section>
                 </div>
             </div>
         </div>
