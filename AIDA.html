@@ -27,77 +27,71 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <title>Asian Immune Diversity Atlas (AIDA)</title>
     <style>
-        .sidebar {
-            height: 100%;
-            width: 250px;
-            position: fixed;
-            z-index: 1;
-            top: 200px;
-            left: 0;
+        .table-of-contents {
             background-color: #f8f9fa;
-            overflow-x: hidden;
-            padding-top: 20px;
-            border-right: 1px solid #dee2e6;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 20px;
+            margin-bottom: 20px;
         }
 
-        .sidebar a {
-            padding: 10px 15px;
-            text-decoration: none;
-            font-size: 16px;
+        .table-of-contents h4 {
+            margin-bottom: 15px;
             color: #333;
-            display: block;
             font-family: 'Josefin Sans', sans-serif;
-            transition: 0.3s;
         }
 
-        .sidebar a:hover {
-            background-color: #e9ecef;
+        .table-of-contents a {
+            display: block;
+            padding: 8px 0;
+            color: #333;
+            text-decoration: none;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .table-of-contents a:hover {
             color: #000;
-        }
-
-        .main-content {
-            margin-left: 250px;
-            padding: 0px 10px;
-        }
-
-        @media screen and (max-width: 768px) {
-            .sidebar {
-                width: 100%;
-                height: auto;
-                position: relative;
-                top: 0;
-                margin-bottom: 20px;
-            }
-            .main-content {
-                margin-left: 0;
-            }
+            text-decoration: none;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            padding-left: 10px;
         }
 
         .section {
             scroll-margin-top: 100px;
         }
+
+        @media screen and (max-width: 768px) {
+            .table-of-contents {
+                margin-bottom: 30px;
+            }
+        }
     </style>
 </head>
 <body>
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <h4 style="padding: 10px 15px; font-family: 'Josefin Sans'">Contents</h4>
-        <a href="#overview">Project Overview</a>
-        <a href="#objectives">Key Objectives</a>
-        <a href="#methodology">Methodology</a>
-        <a href="#impact">Impact and Applications</a>
-        <a href="#collaborators">Collaborators</a>
-    </div>
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container pt-3 pb-3">
+            <h1 style="text-align: center; font-family: 'Josefin Sans';">Asian Immune Diversity Atlas (AIDA)</h1>
+            <hr style="text-align: center;height: 3px">
+            <br>
 
-    <!-- Main content -->
-    <div class="main-content">
-        <div class="container-fluid pt-5 pb-5">
-            <div class="container pt-3 pb-3">
-                <h1 style="text-align: center; font-family: 'Josefin Sans';">Asian Immune Diversity Atlas (AIDA)</h1>
-                <hr style="text-align: center;height: 3px">
-                <br>
+            <div class="row">
+                <!-- Table of Contents -->
+                <div class="col-md-3">
+                    <div class="table-of-contents">
+                        <h4>Contents</h4>
+                        <a href="#overview">Project Overview</a>
+                        <a href="#objectives">Key Objectives</a>
+                        <a href="#methodology">Methodology</a>
+                        <a href="#impact">Impact and Applications</a>
+                        <a href="#collaborators">Collaborators</a>
+                    </div>
+                </div>
 
-                <div class="container pt-3 pb-3" style="width: 70%; text-align: left">
+                <!-- Main Content -->
+                <div class="col-md-9">
                     <section id="overview" class="section">
                         <h3 class="pt-3" style="font-weight: bold;font-size: 24px;">Project Overview</h3>
                         <p style="font-size: 16px;">
